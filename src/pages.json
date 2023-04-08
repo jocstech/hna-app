@@ -44,23 +44,45 @@
     }
   ],
   "globalStyle": {
+    "navigationStyle": "custom", // 导航栏样式，仅支持 default/custom。custom即取消默认的原生导航栏
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#1AA86C",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarBackgroundColor": "#999999",
+    "backgroundColor": "#F8F8F8",
+    "maxWidth": "750rpx"
   },
   "tabBar": {
-    "color": "#1AA86C",
-    "selectedColor": "#1AA86C",
-    "borderStyle": "white",
-    "backgroundColor": "#ffffff",
+    "color": "#999999",
+    "selectedColor": "#e1514c",
+    "borderStyle": "#ccc",
+    "backgroundColor": "#fff",
+    "height": "100rpx",
+    "fontSize": "20rpx",
+    "iconWidth": "40rpx",
+    "spacing": "10rpx",
     "list": [
       {
         "pagePath": "pages/index/index",
+        "iconPath": "static/icons/hna_gray.svg",
+        "selectedIconPath": "static/icons/hna.svg",
         "text": "首页"
       },
       {
+        "pagePath": "pages/itinerary/itinerary",
+        "iconPath": "static/icons/airplane_gray.svg",
+        "selectedIconPath": "static/icons/airplane.svg",
+        "text": "行程"
+      },
+      {
+        "pagePath": "pages/services/services",
+        "iconPath": "static/icons/services_gray.svg",
+        "selectedIconPath": "static/icons/services.svg",
+        "text": "服务大厅"
+      },
+      {
         "pagePath": "pages/profile/profile",
+        "iconPath": "static/icons/person_gray.svg",
+        "selectedIconPath": "static/icons/person.svg",
         "text": "我的"
       }
     ]

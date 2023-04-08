@@ -16,8 +16,8 @@ function goTest() {
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
-    <view @click="changeTitle">changeTitle</view>
-    <view @click="goTest">测试页</view>
+    <view @click="changeTitle">点击更换标题</view>
+    <view @click="goTest">海南航空移动APP</view>
   </view>
 </template>
 
@@ -27,6 +27,7 @@ function goTest() {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'PingFang SC', sans-serif;
 }
 .logo {
   margin-left: auto;

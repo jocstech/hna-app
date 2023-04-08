@@ -1,6 +1,6 @@
 export const useTitle = () => {
-  let oldValue = 'Hello';
-  let newValue = 'Word';
+  let oldValue = '海南航空';
+  let newValue = 'Hainan Airline';
   const title = ref(oldValue);
   function changeTitle() {
     oldValue = title.value;

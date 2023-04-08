@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { onHide, onLaunch, onShow } from '@dcloudio/uni-app';
+import './static/css/index.scss';
+
 onLaunch(() => {
   console.log('App Launch');
 });
@@ -11,4 +13,4 @@ onHide(() => {
 });
 </script>
 
-<style></style>
+<style lang="scss"></style>
