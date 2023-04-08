@@ -8,10 +8,24 @@
       }
     },
     {
+      "name": "itinerary",
+      "path": "pages/itinerary/itinerary",
+      "style": {
+        "navigationBarTitleText": "行程"
+      }
+    },
+    {
+      "name": "services",
+      "path": "pages/services/services",
+      "style": {
+        "navigationBarTitleText": "服务大厅"
+      }
+    },
+    {
       "name": "profile",
       "path": "pages/profile/profile",
       "style": {
-        "navigationBarTitleText": "个人"
+        "navigationBarTitleText": "我的"
       }
     }
   ],
@@ -47,7 +61,7 @@
       },
       {
         "pagePath": "pages/profile/profile",
-        "text": "个人"
+        "text": "我的"
       }
     ]
   }
